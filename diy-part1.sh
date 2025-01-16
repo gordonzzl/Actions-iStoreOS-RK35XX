@@ -19,6 +19,6 @@ sed -i "s/OPENWRT_RELEASE.*/OPENWRT_RELEASE=\"%D %V ${date_version} by ${author}
 # 拉取我的软件包仓库
 sed -i '$a src-git xmpackage https://github.com/xiaomeng9597/openwrt-packages2.git;main' feeds.conf.default
 sed -i '$a src-git smallpack https://github.com/kenzok8/small.git;master' feeds.conf.default
-sed -i '$a src-git tailscale https://github.com/asvow/luci-app-tailscale.git;master' feeds.conf.default
-sed -i '$a src-git ddnsgo https://github.com/sirpdboy/luci-app-ddns-go.git;master' feeds.conf.default
+#sed -i '$a src-git tailscale https://github.com/asvow/luci-app-tailscale.git;master' feeds.conf.default
+#sed -i '$a src-git ddnsgo https://github.com/sirpdboy/luci-app-ddns-go.git;master' feeds.conf.default
 
